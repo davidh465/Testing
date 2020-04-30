@@ -1,0 +1,39 @@
+15:46:23.451 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome"
+}
+15:46:23.451 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "firefox"
+}
+15:46:23.451 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+15:46:23.451 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 43480
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+1572882384200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DAVID~1.HAI\\AppData\\Local\\Temp\\rust_mozprofileZHGVH7"
+[1572882384.845][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+1572882384920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572882384920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572882384920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572882384920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+15:46:25.911 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+15:46:25.958 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 4c1add1d7081370c487d6d9142a1b1b5 (org.openqa.selenium.chrome.ChromeDriverService)
+1572882386922	Marionette	INFO	Listening on port 4682
+15:46:27.011 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+15:46:27.014 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session bfe98c8b-1579-4c66-82d1-518da1103db9 (org.openqa.selenium.firefox.GeckoDriverService)
+15:46:46.931 INFO [ActiveSessions$1.onStop] - Removing session 4c1add1d7081370c487d6d9142a1b1b5 (org.openqa.selenium.chrome.ChromeDriverService)
+1572882415164	Marionette	INFO	Stopped listening on port 4682
+[Parent 33876, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21692, Chrome_ChildThread] WARNING[Parent 3: pipe 3e8r76,ror: 109: f Geile czko:_I/OtaThreasdk_15724]0 WARN1IN5G33/bui:l pd/sircp/ei pecr/rcohrro: 109: mium/src/fchrome/ciole z:/taskm_m1572401o5n/33/build/ispcrc/_channel_win.cc, line 341
+ipc/chromium/src/chro[me/commonC/hiild 21692, Chrpc_channel_win.cc, line 341
+[Child 7004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 33876, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 38984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 38984, Chrome_ChildThread] WARNING: [GPU 39744, Chrome_Child
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+T
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+15:46:56.079 INFO [ActiveSessions$1.onStop] - Removing session bfe98c8b-1579-4c66-82d1-518da1103db9 (org.openqa.selenium.firefox.GeckoDriverService)
